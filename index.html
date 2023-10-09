@@ -1,0 +1,191 @@
+ <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Good Cafe</title>
+        <style>
+            body {
+                background-color: #108c40;
+                font-family: Arial, sans-serif;
+            }
+            #header-id{ 
+                background-color: black;
+                color: whitesmoke;
+                width: 900px;
+                height: 50px;
+                text-align: center;
+                margin-top: 0px;
+            }
+            /* #Footer-id{ 
+                background-color: black;
+                color: whitesmoke;
+                width: 900px;
+                height: 50px;
+                text-align: center;
+                margin-top: 10px;
+            }
+             */
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+            }
+            
+            .card {
+                background-color: rgb(255, 255, 255);
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+            }
+            
+                .card-image {
+                    width: 100%;
+                    height: 90px;
+                    background-image: url("./images4.jpeg");
+                background-size: cover;
+                    background-position: center;
+                    border-radius: 10px;
+                    margin-bottom: 10px;
+                } 
+            
+            .card-title {
+                font-size: 22px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            
+            .card-description {
+                color: #777;
+                margin-bottom: 20px;
+            }
+            
+            .button {
+                background-color: #161529;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                padding: 10px 20px;
+                font-size: 12px;
+                cursor: pointer;
+            }
+            
+            .button:hover {
+                background-color: #d8fc0c;
+            }
+
+            nav {
+            background-color: #130218;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 880px;
+            margin-bottom: 4px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: rgb(240, 10, 175);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <div>
+            <header id="header-id"></i><h1>Welcome to Good Cafe</h1></header>
+            <nav>
+                <ul>
+                    <li><a href="#"><i>Home</i></a></li>
+                    <li><a href="#"><i>Contact us</i></a></li>
+                    <li><a href="#"><i>About us</i></a></li>
+                    <li><a href="#"><i>Store</i></a></li>
+                    <li><a href="#"><i>Delivery</i></a></li>
+                </ul>
+            </nav>
+            <!-- <p>Welcome to our Coffee Ordering Website!
+
+                Indulge in the aromatic world of coffee and embark on a journey of rich flavors and delightful brews. 
+                Whether you're a devoted coffee connoisseur or just starting your love affair with 
+                this captivating beverage,  you've come to the right place.
+                <br>
+                Here, we offer a wide array of coffee selections sourced from the finest coffee beans around the globe. 
+                From smooth and velvety blends to bold and robust single-origin beans, our collection
+                is curated to satisfy even the most discerning palates.</p> -->
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="card-image"></div>
+                <h3 class="card-title">Black Coffee</h3>
+                <p class="card-description">A strong and bold coffee blend.</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <h3 class="card-title">Cappuccino</h3>
+                <p class="card-description">Espresso combined with frothed milk and topped with a sprinkle of chocolate.</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <h3 class="card-title">Latte</h3>
+                <p class="card-description">Creamy espresso with steamed milk and a dollop of foam.</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <h3 class="card-title">Mocha</h3>
+                <p class="card-description">A delicious blend of espresso, chocolate, and steamed milk</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <h3 class="card-title">chocolate chip</h3>
+                <p class="card-description">Classic chocolate chip cookies with a soft and chewy texture.</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <h3 class="card-title">Oatmeal Raisins</h3>
+                <p class="card-description">Hearty oatmeal cookies with sweet raisins.</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <h3 class="card-title">Double Chocolate</h3>
+                <p class="card-description">Rich and indulgent cookies loaded with chocolate chunks.</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <h3 class="card-title">Sugar Cookies</h3>
+                <p class="card-description">Classic sugar cookies with a sweet and buttery flavor.</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <h3 class="card-title">Peanut Butter</h3>
+                <p class="card-description">Delicious cookies made with peanut butter.</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div>
+                <footer id="Footer-id"> <h1 ><i>Thankyou for Ordering.</i></h1>
+                    <p><h2><i>Have a Nice Day!!!</i></h2></p>
+                </footer>
+            </div>
+        </div>
+    </body>
+    </html>
+    
